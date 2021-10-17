@@ -1,5 +1,5 @@
 ---
-title: Hexo blog config
+title: Hexo blog 配置
 date: 2021-10-17 19:45:29
 tags: hexo
 ---
