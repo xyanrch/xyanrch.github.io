@@ -160,6 +160,90 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ch">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/17/markdown-syntax/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="yanrong">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="海星">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/10/17/markdown-syntax/" class="post-title-link" itemprop="url">Markdown  syntax</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2021-10-17 20:00:44 / Modified: 12:11:28" itemprop="dateCreated datePublished" datetime="2021-10-17T20:00:44+00:00">2021-10-17</time>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2021/10/17/markdown-syntax/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2021/10/17/markdown-syntax/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="段落与换行"><a href="#段落与换行" class="headerlink" title="段落与换行"></a>段落与换行</h1><ol>
+<li>段落的前后必须是空行：</li>
+</ol>
+<p>空行指的是行内什么都没有，或者只有空白符（空格或制表符）</p>
+<p>相邻两行文本，如果中间没有空行 会显示在一行中（换行符被转换为空格）</p>
+<ol start="2">
+<li>如果需要在段落内加入换行 <code>(&lt;br&gt;)</code>：</li>
+</ol>
+<p>可以在前一行的末尾加入至少两个空格<br>然后换行写其它的文字</p>
+<ol start="3">
+<li>Markdown 中的多数区块都需要在两个空行之间。</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="ch">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/10/17/hexo-blog-config/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -174,7 +258,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/10/17/hexo-blog-config/" class="post-title-link" itemprop="url">hexo blog config</a>
+            <a href="/2021/10/17/hexo-blog-config/" class="post-title-link" itemprop="url">Hexo blog config</a>
         </h2>
 
         <div class="post-meta">
@@ -185,7 +269,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2021-10-17 19:45:29 / Modified: 11:57:25" itemprop="dateCreated datePublished" datetime="2021-10-17T19:45:29+00:00">2021-10-17</time>
+              <time title="Created: 2021-10-17 19:45:29 / Modified: 12:11:28" itemprop="dateCreated datePublished" datetime="2021-10-17T19:45:29+00:00">2021-10-17</time>
             </span>
 
           
@@ -213,9 +297,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h1><p>在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的站点配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。<br>为了描述方便，在以下说明中，将前者称为 站点配置文件， 后者称为 主题配置文件。</p>
+          <h2 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h2><p>在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的站点配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。<br>为了描述方便，在以下说明中，将前者称为 站点配置文件， 后者称为 主题配置文件。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">./hexo/_config.yml</span><br><span class="line">./hexo/themes/next/_config.yml</span><br></pre></td></tr></table></figure>
-<h1 id="修改语言-amp-站点"><a href="#修改语言-amp-站点" class="headerlink" title="修改语言&amp;站点"></a>修改语言&amp;站点</h1><p>打开站点配置文件，搜索 language，找到如下代码：</p>
+<h2 id="修改语言-amp-站点"><a href="#修改语言-amp-站点" class="headerlink" title="修改语言&amp;站点"></a>修改语言&amp;站点</h2><p>打开站点配置文件，搜索 language，找到如下代码：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: Hexo</span><br><span class="line">subtitle: &#x27;&#x27;</span><br><span class="line">description: &#x27;&#x27;</span><br><span class="line">keywords:</span><br><span class="line">author: xx</span><br><span class="line">language: en</span><br><span class="line">timezone: &#x27;&#x27;</span><br></pre></td></tr></table></figure>
       
     </div>
@@ -259,7 +343,7 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2021-10-17 11:57:25" itemprop="dateCreated datePublished" datetime="2021-10-17T11:57:25+00:00">2021-10-17</time>
+              <time title="Created: 2021-10-17 12:11:28" itemprop="dateCreated datePublished" datetime="2021-10-17T12:11:28+00:00">2021-10-17</time>
             </span>
 
           
@@ -381,12 +465,12 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
