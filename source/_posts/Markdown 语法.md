@@ -28,7 +28,7 @@ tags: markdown
 + **2011**年7月19日，因被控从MIT和JSTOR下载480万篇学术论文并以免费形式上传于网络被捕。     
 + **2013**年1月自杀身亡。    
 
-![Aaron Swartz](https://github.com/younghz/Markdown/raw/master/resource/Aaron_Swartz.jpg)
+![MD](https://www.fullstackpython.com/img/logos/markdown.png)
 
 天才都有早逝的归途。
 
@@ -150,19 +150,19 @@ void main()
 > [younghz的Markdown库](https:://github.com/younghz/Markdown "Markdown")。
 
 **参考式**：
-> \[younghz的Markdown库1\]\[1\]    
-> \[younghz的Markdown库2\]\[2\]    
-> \[1\]:https:://github.com/younghz/Markdown "Markdown"    
-> \[2\]:https:://github.com/younghz/Markdown "Markdown"    
+> \[xyanrch的Markdown库1\]\[1\]    
+> \[xyanrch的Markdown库2\]\[2\]    
+> \[1\]:https:://github.com/xyanrch/Markdown "Markdown"    
+> \[2\]:https:://github.com/xyanrch/Markdown "Markdown"    
 
 效果：
-> [younghz的Markdown库1][1]    
-> [younghz的Markdown库2][2]
+> [xyanrch的Markdown库1][1]    
+> [xyanrch的Markdown库2][2]
 
-[1]: https:://github.com/younghz/Markdown "Markdown"
-[2]: https:://github.com/younghz/Markdown "Markdown"
+[1]: https:://github.com/xyanrch/Markdown "Markdown"
+[2]: https:://github.com/xyanrch/Markdown "Markdown"
 
-**注意**：上述的`[1]:https:://github.com/younghz/Markdown "Markdown"`不出现在区块中。
+**注意**：上述的`[1]:https:://github.com/xyanrch/Markdown "Markdown"`不出现在区块中。
 
 #### 4.9 图片
 添加图片的形式和链接相似，只需在链接的基础上前方加一个`！`。
@@ -206,7 +206,7 @@ Markdown的使用者：
 
 用`|`表示表格纵向边界，表头和表内容用`-`隔开，并可用`:`进行对齐设置，两边都有`:`则表示居中，若不加`:`则默认左对齐。
 
-|代码库                              |链接                                |
+|Title                             |Context                                |
 |:------------------------------------:|------------------------------------|
-|MarkDown                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
-|MarkDownCopy                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
+|MarkDown                              |[https://www.markdownguide.org](https://www.markdownguide.org/ "Markdown")|
+|MarkDowndoc                             |[https://guides.github.com/features/mastering-markdown/](https://guides.github.com/features/mastering-markdown/ "Markdowndoc")|
